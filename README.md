@@ -7,7 +7,7 @@ https://www.npmjs.com/package/pug
 ## Installera först Node.js https://nodejs.org/en/
 
 Se till att ni har NPM i path så ni kan köra det i powershell.
-För att installera pug globalt med npm kör.
+För att installera pug globalt med npm kör.  
   `npm install -g pug-cli`
 
 Strukturen har 2 mappar för filerna.
