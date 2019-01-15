@@ -15,7 +15,7 @@ Strukturen har 2 mappar för filerna.
 * src/ mapp med templater
 * dist/ output mapp med/för html
 
-Kör npm install
+Kör `npm install`
 
 För att skapa html kör, du kommer då hitta din genererade html i dist mappen.
 `pug src --pretty --out dist`
