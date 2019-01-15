@@ -13,9 +13,14 @@ För att installera pug globalt med npm kör.
 ### Om du klonar detta repo så...
 Strukturen har 2 mappar för filerna.
 * src/ mapp med templater
-* dist/ output mapp med/för html 
+* dist/ output mapp med/för html
 
-För att skapa html kör  
+Kör npm install
+
+För att skapa html kör, du kommer då hitta din genererade html i dist mappen.
 `pug src --pretty --out dist`
 
 Jag har tagit viss text/information from orginalsidan, lagt till bootstrap och utgått från exempel-layouterna.
+Du kan använda detta som en grund för ditt arbete.
+
+Om du skapar ett repo för ditt arbete så kolla in .gitignore för detta projekt.
