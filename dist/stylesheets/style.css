@@ -2,6 +2,33 @@ html {
     font-size: 1rem;
 }
 
+.navbar-custom {
+    background-color: #FFFF66;
+}
+
+.rubrik-red {
+    color: #990000;
+    border-bottom: #990000 solid 1px;
+    width: 100%;
+}
+
+.aktuellt {
+    background-image: url('../images/kritor.jpg');
+}
+
+.member > h3 {
+    color: #990000;
+    border-bottom: #990000 solid 1px;
+    width: 100%;   
+}
+.profile-image {
+    width: 200px;
+}
+
+.member > p > img {
+    
+}
+
 @include media-breakpoint-up(sm) {
     html {
         font-size: 1.2rem;
