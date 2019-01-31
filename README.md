@@ -25,4 +25,6 @@ Du kan använda detta som en grund för ditt arbete.
 
 Om du skapar ett repo för ditt arbete så kolla in .gitignore för detta projekt.
 
-  
+#### För att testa och få dist mappen till pages
+
+`git subtree push --prefix dist origin gh-pages`
