@@ -4,7 +4,7 @@ Bildterapiföreningen i Norrland (BiN) var jag med och startade 1982, liksom Sve
 
 Jag är också utbildad yoga- och meditationslärare inom traditionen Satyananda Yoga. Bildterapi leder ofta in till existentiella frågor om mening och livsriktning. De bilder som skapas utgör underlag för reflektion omkring självbild och relationer, om tro och grundläggande värderingar. Därför kombinerar jag ofta meditation och bildskapande.
 
-Jag erbjuder:
+#### Jag erbjuder
 
 * Individuell bildterapi
 * Bildterapi i grupp

@@ -3,7 +3,7 @@
 Välkommen att boka en tid hos mig som arbetar med bildterapi och psykoterapi på psykodynamisk grund. Jag är S:t Lukas utbildad terapeut och specialistutbildning i bildterapi, även utbildad inom konflikthanteringar relaterade till arbetsmiljö och är präst.
 
 * Enskild terapi.
-- Anmälan till grupp för dig som lever i en relation med partner som lider av psykisk ohälsa. Grupp om minst fyra och högst sex.
+* Anmälan till grupp för dig som lever i en relation med partner som lider av psykisk ohälsa. Grupp om minst fyra och högst sex.
 * Grupp för jag-stärkande terapi för dig som har en alkohol-tablett missbruksproblematik. Grupp om minst fem personer och högst sju.
 * Jag-stärkande enskild behandling för dig med neuropsykiatrisk diagnos.
 * Arbetsplatsproblematik, sorg, mobbning, organisationsförändringar. Enskild, grupp, arbetslag.

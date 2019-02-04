@@ -4,7 +4,7 @@
 
 Mitt förhållningssätt i behandlingsarbetet är att aktivt arbeta med ”friskfaktorer”, dvs stärkande och hälsofrämjande insatser, där bildterapi är en sådan. En utbildning till handledare i KASAM (Känsla av Sammanhang) gav en fördjupad kunskap som jag också använder i min roll som bildterapeut. Människor med god förmåga att uppleva tillvaron som begriplig, hanterbar och meningsfull får en känsla av sammanhang, vilket främjar hälsa. Bilden blir ett verktyg som kan bistå målaren i att begripa, hantera och finna meningsfullhet.
 
-Jag erbjuder:
+#### Jag erbjuder
 
 * Bildterapi individuellt och i grupp
 * Handledning i bildterapi
