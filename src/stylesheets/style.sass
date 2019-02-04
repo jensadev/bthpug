@@ -1,5 +1,4 @@
-$yellow : #fefeb7
-$red : #9c1818
+@import "_palette.scss"
 
 $rubrik : 'Montserrat'
 $ingress : 'Lora'
@@ -8,6 +7,9 @@ $bread : 'Hind Madurai'
 html
     font-size: 1rem
 
+body
+    background-color: $color1
+    color: $color2
 p
     font-family: $bread, sans-serif
 
@@ -15,34 +17,36 @@ h1, h2, h3, h4
     font-family: $rubrik, sans-serif
 
 .jumbotron
+    background-color: $color3
+    color: $color2
     p
         font-family: $ingress, serif
 
 .navbar-custom
-    background-color: $yellow
+    background-color: $color5
 
 .footer-custom
-    background-color: $yellow
+    background-color: $color3
 
 .rubrik-red
-    color: $red
-    border-bottom: $red solid 1px
+    color: $color4
+    border-bottom: $color4 solid 1px
     width: 100%
 
-.news
+.news, .member
     h2
-        color: $red
-        border-bottom: $red solid 1px
+        color: $color4
+        border-bottom: $color4 solid 1px
         width: 100%
 
 .aktuellt
     background-image: url('../images/kritor.jpg')
-
-.member
-    h2
-        color: $red
-        border-bottom: $red solid 1px
-        width: 100%
     
 .profile-image
     width: 260px
+
+.btop
+    position: fixed
+    bottom: 20px
+    right: 20px
+    color: $color2
