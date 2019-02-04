@@ -1,40 +1,51 @@
 html {
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 p {
-  font-family: "Hind Madurai", sans-serif; }
+  font-family: "Hind Madurai", sans-serif;
+}
 
 h1, h2, h3, h4 {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+}
 
 .jumbotron p {
-  font-family: "Lora", serif; }
+  font-family: "Lora", serif;
+}
 
 .navbar-custom {
-  background-color: #fefeb7; }
+  background-color: #fefeb7;
+}
 
 .footer-custom {
-  background-color: #fefeb7; }
+  background-color: #fefeb7;
+}
 
 .rubrik-red {
   color: #9c1818;
   border-bottom: #9c1818 solid 1px;
-  width: 100%; }
+  width: 100%;
+}
 
 .news h2 {
   color: #9c1818;
   border-bottom: #9c1818 solid 1px;
-  width: 100%; }
+  width: 100%;
+}
 
 .aktuellt {
-  background-image: url("../images/kritor.jpg"); }
+  background-image: url("../images/kritor.jpg");
+}
 
 .member h2 {
   color: #9c1818;
   border-bottom: #9c1818 solid 1px;
-  width: 100%; }
+  width: 100%;
+}
 
 .profile-image {
-  width: 260px; }
+  width: 260px;
+}
 
 /*# sourceMappingURL=style.css.map */
