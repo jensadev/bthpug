@@ -1,48 +1,33 @@
 html {
-    font-size: 1rem;
-}
+  font-size: 1rem; }
 
 .navbar-custom {
-    background-color: #FFFF66;
-}
+  background-color: #fefeb7; }
+
+.footer-custom {
+  background-color: #fefeb7; }
 
 .rubrik-red {
-    color: #990000;
-    border-bottom: #990000 solid 1px;
-    width: 100%;
-}
+  color: #9c1818;
+  border-bottom: #9c1818 solid 1px;
+  width: 100%; }
+
+.news h2 {
+  color: #9c1818;
+  border-bottom: #9c1818 solid 1px;
+  width: 100%;
+  text-align: right !important; }
 
 .aktuellt {
-    background-image: url('../images/kritor.jpg');
-}
+  background-image: url("../images/kritor.jpg"); }
 
-.member > h3 {
-    color: #990000;
-    border-bottom: #990000 solid 1px;
-    width: 100%;   
-}
+.member h2 {
+  color: #9c1818;
+  border-bottom: #9c1818 solid 1px;
+  width: 100%;
+  text-align: right !important; }
+
 .profile-image {
-    width: 200px;
-}
+  width: 260px; }
 
-.member > p > img {
-    
-}
-
-@include media-breakpoint-up(sm) {
-    html {
-        font-size: 1.2rem;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    html {
-        font-size: 1.4rem;
-    }
-}
-
-@include media-breakpoint-up(lg) {
-    html {
-        font-size: 1.6rem;
-    }
-}
+/*# sourceMappingURL=style.css.map */

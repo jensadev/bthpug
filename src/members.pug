@@ -1,15 +1,55 @@
-extends layout
+extends layout    
 
 block content
     main(role='main')
         div(class='jumbotron jumbotron-fluid')
-            div(class='col-sm-8 mx-auto')
-                h1 Medlemmar
-                p.lead Ingress.
-                p Paragraf
-        div(class='container')
-            div(class='row')
-                .member
-                    h3 Anna-Karin Karlsson
-                    img(class='float-md-right profile-image' src='images/members/Anna-Karin.jpg')
-                    include:markdown-it members/Anna-Karin.md
+            div(class='col-sm-10 mx-auto')
+                h1.rubrik-red Medlemmar
+                p.lead Här nedan hittar du individuell information om våra medlemmar.
+                p
+        div(class='container-fluid')
+            .row
+                section.member#Anna-Karin
+                    h2 Anna-Karin Karlsson
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/anna-karin.jpg')
+                    include:markdown-it members/anna-karin.md
+            .row
+                section.member#Birgitta
+                    h2 Birgitta Englund
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/birgitta.jpg')
+                    include:markdown-it members/birgitta.md
+            .row
+                section.member#Carin
+                    h2 Carin Salander
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/carin.jpg')
+                    include:markdown-it members/carin.md
+            .row
+                section.member#Gunilla
+                    h2 Gunilla Berglund
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/gunilla.jpg')
+                    include:markdown-it members/gunilla.md
+            .row
+                section.member#Karin
+                    h2 Karin Egberg Thyme
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/karin.png')
+                    include:markdown-it members/karin.md
+            .row
+                section.member#Katarina
+                    h2 Katarina Sihlén
+                    //img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/katarina.jpg')
+                    include:markdown-it members/katarina.md
+            .row
+                section.member#Leenah
+                    h2 Leenah Malmi Pauser
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/leenah.png')
+                    include:markdown-it members/leenah.md
+            .row
+                section.member#Ninne
+                    h2 Ninne Lindgren
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/ninne.jpg')
+                    include:markdown-it members/ninne.md
+            .row
+                section.member#Ulla
+                    h2 Ulla Kiivuori
+                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/ulla.jpg')
+                    include:markdown-it members/ulla.md

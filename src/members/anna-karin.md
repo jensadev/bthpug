@@ -7,6 +7,7 @@ Stress har ibland ett samband med smärta, bristande sömn och ork vilket bidrar
 Fokus är på dig, att hitta din egen kraft och att få verktyg att använda i vardagen.  
 
 Jag erbjuder:
+
 * Bildterapi individuellt och i grupp
 * Vägledningssamtal
 * Workshops, prova på bildterapi, retreat
@@ -14,6 +15,3 @@ Jag erbjuder:
   
 Kontaktuppgifter, mer information finner du på [bildkompassen.se](http://www.bildkompassen.se)  
 Där finns även min blogg om bildterapi, välkommen att titta in!
-
-![Kloser på Lesvos](images/Anna-Karin_foot.jpg)
-
