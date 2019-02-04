@@ -1,4 +1,4 @@
-#### Bild för Hälsa
+### Bild för Hälsa
 
 Åren 1971-2010 har jag varit verksam som socialarbetare inom fyra olika områden; kriminalvård, kommunal vuxenutbildning, öppenvård för kvinnor i aktivt missbruk samt på behandlingshem för män och kvinnor med missbruk och psykisk ohälsa. I mitt yrke har jag mött människor i utsatta livssituationer där fokus har legat på stödsamtal, psykosocial rådgivning och krisbearbetning. Jag kompletterade min socionomutbildning med magisterexamen i socialt behandlingsarbete i slutet av nittitalet samt med specialistutbildning i bildterapi vid Umeå Universitet 2001. Jag har sedan dess arbetat med bildterapi individuellt och i grupp kombinerat med psykosocialt behandlingsarbete.
 

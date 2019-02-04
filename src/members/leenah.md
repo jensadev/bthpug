@@ -1,4 +1,4 @@
-#### Bildterapi-psykoterapi
+### Bildterapi-psykoterapi
 
 Välkommen att boka en tid hos mig som arbetar med bildterapi och psykoterapi på psykodynamisk grund. Jag är S:t Lukas utbildad terapeut och specialistutbildning i bildterapi, även utbildad inom konflikthanteringar relaterade till arbetsmiljö och är präst.
 
