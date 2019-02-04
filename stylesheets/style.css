@@ -24,8 +24,7 @@ em {
 .news h2 {
   color: #9c1818;
   border-bottom: #9c1818 solid 1px;
-  width: 100%;
-  text-align: right !important; }
+  width: 100%; }
 
 .aktuellt {
   background-image: url("../images/kritor.jpg"); }
