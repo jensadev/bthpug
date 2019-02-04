@@ -43,10 +43,18 @@ h1, h2, h3, h4
     background-image: url('../images/kritor.jpg')
     
 .profile-image
-    width: 260px
+    width: 200px
 
 .btop
     position: fixed
     bottom: 20px
     right: 20px
     color: $color2
+
+@media (max-width: 575.98px)
+    .profile-image
+        width: 120px
+
+@media (max-width: 300px)
+    .profile-image
+        display: none
