@@ -3,26 +3,28 @@ extends layout
 block head
     title Bildterapihuset - Om
 
+block jumbotron
+    div(class='jumbotron')
+        div(class='col-sm-10 mx-auto')
+            h1.rubrik-red Om
+            p.lead Bildterapihuset drivs av ett nätverk av bildterapeuter. Vi har vår verksamhet i en funktionellt inredd lokal på Brogatan 5.
+            p Huset ligger inne på gården, i huset bakom Swefo foto. Vår lokal ligger i källarvåningen och det står Bildterapihuset på dörren. Vi erbjuder bildterapi för individer, familjer och grupper, handledning, kurser och workshops.
+            p För information om individuella terapeuter besök vår 
+                a(href='members.html') medlemssida
+
 block content
-    main.container
-        div(class='jumbotron')
-            div(class='col-sm-10 mx-auto')
-                h1.rubrik-red Om
-                p.lead Bildterapihuset drivs av ett nätverk av bildterapeuter. Vi har vår verksamhet i en funktionellt inredd lokal på Brogatan 5.
-                p Huset ligger inne på gården, i huset bakom Swefo foto. Vår lokal ligger i källarvåningen och det står Bildterapihuset på dörren. Vi erbjuder bildterapi för individer, familjer och grupper, handledning, kurser och workshops.
-                p För information om individuella terapeuter besök vår 
-                    a(href='members.html') medlemssida
+    main.container.about
         section.row
             .col-md-9.col
                 p Bildterapi är en komplementär terapiform som använder bildskapande och samtal för utforskning och bearbetning av tankar, känslor och minnen. Bildterapi kan hjälpa människor att lösa problem, minska stress, stärka självkänslan och komma till insikt. För utförligare information: 
                     a(href='http://www.bildterapi.se/bildterapi.html' title='Länk till bildterapi.se') bildterapi.se
 
-                h3.rubrik-red Bildterapi passar för dig som söker
+                h2 Bildterapi, för dig som söker
                 ul
                     li Utveckling och förändring på det personliga planet
                     li Stöd i bearbetning av en aktuell eller genomgången kris
                     li Andra uttryckssätt än orden
-                h3.rubrik-red Bildterapeutiska metoder passar för gruppen som vill
+                h2 Bildterapeutiska metoder, för gruppen som vill
                 ul
                     li Undersöka och förbättra sina kommunikationsmönster
                     li Utveckla kreativitet, lust och motivation i arbetet

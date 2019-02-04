@@ -30,28 +30,19 @@ h1, h2, h3, h4 {
   background-color: #f0e6ce;
 }
 
-.footer-custom {
-  background-color: #eaeaec;
-}
-
 .rubrik-red {
   color: #461f26;
   border-bottom: #461f26 solid 1px;
   width: 100%;
 }
 
-.news h2, .member h2 {
+.news h2, .members h2, .contact h2, .about h2, .offer h2, .resources h2 {
   color: #461f26;
   border-bottom: #461f26 solid 1px;
   width: 100%;
 }
-
-.aktuellt {
-  background-image: url("../images/kritor.jpg");
-}
-
-.profile-image {
-  width: 200px;
+.news h3, .members h3, .contact h3, .about h3, .offer h3, .resources h3 {
+  color: #461f26;
 }
 
 .btop {
@@ -59,6 +50,10 @@ h1, h2, h3, h4 {
   bottom: 20px;
   right: 20px;
   color: #292d29;
+}
+
+.profile-image {
+  width: 200px;
 }
 
 @media (max-width: 575.98px) {

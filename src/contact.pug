@@ -3,19 +3,21 @@ extends layout
 block head
     title Bildterapihuset - Kontakt
 
+block jumbotron
+    div(class='jumbotron')
+        div(class='col-sm-10 mx-auto')
+            h1.rubrik-red Kontakt
+            p.lead Hur går det till?
+            p Du kan själv söka kontakt för egen del direkt via mail till någon av bildterapeuterna, eller via din företagshälsovård eller annan kontaktperson. 
+            p För konsultativa insatser och övriga beställningsuppdrag, ta kontakt för diskussion om vem av oss som är bäst lämpad.
+            p Behöver du mer information så kan du kontakta Gunilla Berglund på 
+                a(href='mailto:kgunillak@gmail.com' title='Maila Gunilla') kgunillak@gmail.com
+
 block content
-    main
-        div(class='jumbotron')
-            div(class='col-sm-10 mx-auto')
-                h1.rubrik-red Kontakt
-                p.lead Hur går det till
-                p Du kan själv söka kontakt för egen del direkt via mail till någon av bildterapeuterna, eller via din företagshälsovård eller annan kontaktperson. 
-                p För konsultativa insatser och övriga beställningsuppdrag, ta kontakt för diskussion om vem av oss som är bäst lämpad.
-                p Behöver du mer information så kan du kontakta Gunilla Berglund på 
-                    a(href='mailto:kgunillak@gmail.com' title='Maila Gunilla') kgunillak@gmail.com
+    main.container.contact
         section.row
             .col
-                h2.rubrik-red Hitta hit
+                h2 Hitta hit
                 iframe(title='IFrame med google maps' class='map w-100' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src!='https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=sv-SE&amp;geocode=&amp;q=Brogatan+5,+Ume%C3%A5,+Sverige&amp;aq=0&amp;oq=Brogatan+5+Ume%C3%A5+Sverige&amp;sll=63.829996,20.328398&amp;sspn=0.038687,0.078964&amp;t=h&amp;gl=US&amp;g=Mariehemsv%C3%A4gen+2C+906+54+Ume%C3%A5+Sverige&amp;ie=UTF8&amp;hq=&amp;hnear=Brogatan+5,+903+25+Ume%C3%A5,+V%C3%A4sterbottens+l%C3%A4n,+Sverige&amp;ll=63.82762,20.250895&amp;spn=0.002418,0.004935&amp;z=14&amp;output=embed')
                 p 
                     a(title='Länk till google maps' href!='https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=sv-SE&amp;geocode=&amp;q=Brogatan+5,+Ume%C3%A5,+Sverige&amp;aq=0&amp;oq=Brogatan+5+Ume%C3%A5+Sverige&amp;sll=63.829996,20.328398&amp;sspn=0.038687,0.078964&amp;t=h&amp;gl=US&amp;g=Mariehemsv%C3%A4gen+2C+906+54+Ume%C3%A5+Sverige&amp;ie=UTF8&amp;hq=&amp;hnear=Brogatan+5,+903+25+Ume%C3%A5,+V%C3%A4sterbottens+l%C3%A4n,+Sverige&amp;ll=63.82762,20.250895&amp;spn=0.002418,0.004935&amp;z=14') Visa större karta
