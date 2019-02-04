@@ -7,47 +7,53 @@ block head
     title Bildterapihuset - Medlemmar
     
 block content
-    main
-        div(class='jumbotron jumbotron-fluid')
+    main.container
+        div(class='jumbotron')
             div(class='col-sm-10 mx-auto')
                 h1.rubrik-red Medlemmar
                 p.lead Här nedan hittar du individuell information om våra medlemmar.
                 p Här hittar du även kontaktuppgifter och vad varje enskild terapeut erbjuder.
-
-        div(class='container-fluid')
+        section.member.mt-3#Anna-Karin
             .col
-                section.member.mt-3#Anna-Karin
-                    h2 Anna-Karin Karlsson
-                    +pimg('anna-karin')
-                    include:markdown-it members/anna-karin.md
-                section.member.mt-3#Birgitta
-                    h2 Birgitta Englund
-                    +pimg('birgitta')
-                    include:markdown-it members/birgitta.md
-                section.member.mt-3#Carin
-                    h2 Carin Salander
-                    +pimg('carin')
-                    include:markdown-it members/carin.md
-                section.member.mt-3#Gunilla
-                    h2 Gunilla Berglund
-                    +pimg('gunilla')
-                    include:markdown-it members/gunilla.md
-                section.member.mt-3#Karin
-                    h2 Karin Egberg Thyme
-                    +pimg('karin')
-                    include:markdown-it members/karin.md
-                section.member.mt-3#Katarina
-                    h2 Katarina Sihlén
-                    include:markdown-it members/katarina.md
-                section.member.mt-3#Leenah
-                    h2 Leenah Malmi Pauser
-                    +pimg('leenah')
-                    include:markdown-it members/leenah.md
-                section.member.mt-3#Ninne
-                    h2 Ninne Lindgren
-                    +pimg('ninne')
-                    include:markdown-it members/ninne.md
-                section.member.mt-3#Ulla
-                    h2 Ulla Kiivuori
-                    +pimg('ulla')
-                    include:markdown-it members/ulla.md
+                h2 Anna-Karin Karlsson
+                +pimg('anna-karin')
+                include:markdown-it members/anna-karin.md
+        section.member.mt-3#Birgitta
+            .col
+                h2 Birgitta Englund
+                +pimg('birgitta')
+                include:markdown-it members/birgitta.md
+        section.member.mt-3#Carin
+            .col
+                h2 Carin Salander
+                +pimg('carin')
+                include:markdown-it members/carin.md
+        section.member.mt-3#Gunilla
+            .col
+                h2 Gunilla Berglund
+                +pimg('gunilla')
+                include:markdown-it members/gunilla.md
+        section.member.mt-3#Karin
+            .col
+                h2 Karin Egberg Thyme
+                +pimg('karin')
+                include:markdown-it members/karin.md
+        section.member.mt-3#Katarina
+            .col
+                h2 Katarina Sihlén
+                include:markdown-it members/katarina.md
+        section.member.mt-3#Leenah
+            .col
+                h2 Leenah Malmi Pauser
+                +pimg('leenah')
+                include:markdown-it members/leenah.md
+        section.member.mt-3#Ninne
+            .col
+                h2 Ninne Lindgren
+                +pimg('ninne')
+                include:markdown-it members/ninne.md
+        section.member.mt-3#Ulla
+            .col
+                h2 Ulla Kiivuori
+                +pimg('ulla')
+                include:markdown-it members/ulla.md

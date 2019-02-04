@@ -4,17 +4,16 @@ block head
     title Bildterapihuset - Aktuellt
 
 block content
-    main
-        div(class='jumbotron jumbotron-fluid')
+    main.contaier
+        div(class='jumbotron')
             div(class='col-sm-10 mx-auto')
                 h1.rubrik-red Aktuellt
                 p.lead Här är våra aktuella kurser för vinter och vår 2019.
                 p Om du önskar individuell bildterapi så hittar du information under våra medlemmars sidor. Du tar sedan kontakt via mail eller telefon.
                 p
                     em Välkommen till kreativt skapande i Bildterapihuset.
-        div(class='container-fluid news')
-            section.row
-                .col-md-9.col
-                    include:markdown-it news/latest.md
-                .col-md-3
-                    img(class='rounded img-fluid pt-5 d-none d-md-block mx-auto' src='images/kritor.jpg' alt='Bild på kritor')
+        section.row.news
+            .col-md-9.col
+                include:markdown-it news/latest.md
+            .col-md-3
+                img(class='rounded img-fluid pt-5 d-none d-md-block mx-auto' src='images/kritor.jpg' alt='Bild på kritor')
