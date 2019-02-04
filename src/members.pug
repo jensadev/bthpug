@@ -1,5 +1,8 @@
 extends layout    
 
+mixin pimg(name)
+    img(class='rounded float-right profile-image mx-3 mt-3 mb-2 img-fluid d-none d-md-block' src='images/members/' + name + '.jpg' alt='Bild på ' + name)
+
 block head
     title Bildterapihuset - Medlemmar
     
@@ -10,50 +13,40 @@ block content
                 h1.rubrik-red Medlemmar
                 p.lead Här nedan hittar du individuell information om våra medlemmar.
                 p Här hittar du även kontaktuppgifter och vad varje enskild terapeut erbjuder.
-                
+
         div(class='container-fluid')
-            .row
-                section.member#Anna-Karin
-                    h2 Anna-Karin Karlsson
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/anna-karin.jpg')
-                    include:markdown-it members/anna-karin.md
-            .row
-                section.member#Birgitta
-                    h2 Birgitta Englund
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/birgitta.jpg')
-                    include:markdown-it members/birgitta.md
-            .row
-                section.member#Carin
-                    h2 Carin Salander
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/carin.jpg')
-                    include:markdown-it members/carin.md
-            .row
-                section.member#Gunilla
-                    h2 Gunilla Berglund
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/gunilla.jpg')
-                    include:markdown-it members/gunilla.md
-            .row
-                section.member#Karin
-                    h2 Karin Egberg Thyme
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/karin.png')
-                    include:markdown-it members/karin.md
-            .row
-                section.member#Katarina
-                    h2 Katarina Sihlén
-                    //img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/katarina.jpg')
-                    include:markdown-it members/katarina.md
-            .row
-                section.member#Leenah
-                    h2 Leenah Malmi Pauser
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/leenah.png')
-                    include:markdown-it members/leenah.md
-            .row
-                section.member#Ninne
-                    h2 Ninne Lindgren
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/ninne.jpg')
-                    include:markdown-it members/ninne.md
-            .row
-                section.member#Ulla
-                    h2 Ulla Kiivuori
-                    img(class='rounded float-md-right profile-image px-1 py-2' src='images/members/ulla.jpg')
-                    include:markdown-it members/ulla.md
+            section.member.mt-3#Anna-Karin
+                h2 Anna-Karin Karlsson
+                +pimg('anna-karin')
+                include:markdown-it members/anna-karin.md
+            section.member.mt-3#Birgitta
+                h2 Birgitta Englund
+                +pimg('birgitta')
+                include:markdown-it members/birgitta.md
+            section.member.mt-3#Carin
+                h2 Carin Salander
+                +pimg('carin')
+                include:markdown-it members/carin.md
+            section.member.mt-3#Gunilla
+                h2 Gunilla Berglund
+                +pimg('gunilla')
+                include:markdown-it members/gunilla.md
+            section.member.mt-3#Karin
+                h2 Karin Egberg Thyme
+                +pimg('karin')
+                include:markdown-it members/karin.md
+            section.member.mt-3#Katarina
+                h2 Katarina Sihlén
+                include:markdown-it members/katarina.md
+            section.member.mt-3#Leenah
+                h2 Leenah Malmi Pauser
+                +pimg('leenah')
+                include:markdown-it members/leenah.md
+            section.member.mt-3#Ninne
+                h2 Ninne Lindgren
+                +pimg('ninne')
+                include:markdown-it members/ninne.md
+            section.member.mt-3#Ulla
+                h2 Ulla Kiivuori
+                +pimg('ulla')
+                include:markdown-it members/ulla.md
