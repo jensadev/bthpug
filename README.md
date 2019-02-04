@@ -28,3 +28,5 @@ Om du skapar ett repo för ditt arbete så kolla in .gitignore för detta projek
 #### För att testa och få dist mappen till pages
 
 `git subtree push --prefix dist origin gh-pages`
+
+https://jensnti.github.io/bthpug/dist/
