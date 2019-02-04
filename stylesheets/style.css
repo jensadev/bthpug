@@ -1,5 +1,13 @@
+/* Coolors Exported Palette - coolors.co/fefefe-292d29-eaeaec-461f26-f0e6ce */
+/* HSL */
+/* RGB */
 html {
   font-size: 1rem;
+}
+
+body {
+  background-color: #fefefe;
+  color: #292d29;
 }
 
 p {
@@ -10,27 +18,31 @@ h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
 }
 
+.jumbotron {
+  background-color: #eaeaec;
+  color: #292d29;
+}
 .jumbotron p {
   font-family: "Lora", serif;
 }
 
 .navbar-custom {
-  background-color: #fefeb7;
+  background-color: #f0e6ce;
 }
 
 .footer-custom {
-  background-color: #fefeb7;
+  background-color: #eaeaec;
 }
 
 .rubrik-red {
-  color: #9c1818;
-  border-bottom: #9c1818 solid 1px;
+  color: #461f26;
+  border-bottom: #461f26 solid 1px;
   width: 100%;
 }
 
-.news h2 {
-  color: #9c1818;
-  border-bottom: #9c1818 solid 1px;
+.news h2, .member h2 {
+  color: #461f26;
+  border-bottom: #461f26 solid 1px;
   width: 100%;
 }
 
@@ -38,14 +50,15 @@ h1, h2, h3, h4 {
   background-image: url("../images/kritor.jpg");
 }
 
-.member h2 {
-  color: #9c1818;
-  border-bottom: #9c1818 solid 1px;
-  width: 100%;
-}
-
 .profile-image {
   width: 260px;
+}
+
+.btop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #292d29;
 }
 
 /*# sourceMappingURL=style.css.map */
