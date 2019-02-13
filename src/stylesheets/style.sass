@@ -1,29 +1,41 @@
 @import "_palette.scss"
 
-$rubrik : 'Montserrat'
-$ingress : 'Lora'
-$bread : 'Hind Madurai'
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav')
+
+$rubrik : 'Comfortaa', cursive
+$ingress : 'Fira Sans', sans-serif
+$bread : 'Yantramanav', sans-serif
 
 html
     font-size: 1rem
 
 body
-    background-color: $color1
-    color: $color2
+    background-color: $color3
+    color: $color1
+
+a
+    color: $color5
+a:hover
+    color: darken($color5, 30%)
+
 p
-    font-family: $bread, sans-serif
+    font-family: $bread
 
 h1, h2, h3, h4
-    font-family: $rubrik, sans-serif
+    font-family: $rubrik
 
 .jumbotron
-    background-color: $color3
-    color: $color2
+    background-color: $color2
+    color: $color1
     p
-        font-family: $ingress, serif
+        font-family: $ingress
 
 .navbar-custom
-    background-color: $color5
+    background-color: $color4
+    font-family: $bread
+
+.navbar-brand
+    font-family: $rubrik
 
 .rubrik-red
     color: $color4

@@ -1,55 +1,69 @@
-/* Coolors Exported Palette - coolors.co/fefefe-292d29-eaeaec-461f26-f0e6ce */
+/* Coolors Exported Palette - coolors.co/2d3142-bfc0c0-ffffff-ef8354-4f5d75 */
 /* HSL */
 /* RGB */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav");
 html {
   font-size: 1rem;
 }
 
 body {
-  background-color: #fefefe;
-  color: #292d29;
+  background-color: white;
+  color: #2d3142;
+}
+
+a {
+  color: #4f5d75;
+}
+
+a:hover {
+  color: #11141a;
 }
 
 p {
-  font-family: "Hind Madurai", sans-serif;
+  font-family: "Yantramanav", sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Comfortaa", cursive;
 }
 
 .jumbotron {
-  background-color: #eaeaec;
-  color: #292d29;
+  background-color: #bfc0c0;
+  color: #2d3142;
 }
 .jumbotron p {
-  font-family: "Lora", serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .navbar-custom {
-  background-color: #f0e6ce;
+  background-color: #ef8354;
+  font-family: "Yantramanav", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Comfortaa", cursive;
 }
 
 .rubrik-red {
-  color: #461f26;
-  border-bottom: #461f26 solid 1px;
+  color: #ef8354;
+  border-bottom: #ef8354 solid 1px;
   width: 100%;
 }
 
 .news h2, .members h2, .contact h2, .about h2, .offer h2, .resources h2 {
-  color: #461f26;
-  border-bottom: #461f26 solid 1px;
+  color: #ef8354;
+  border-bottom: #ef8354 solid 1px;
   width: 100%;
 }
 .news h3, .members h3, .contact h3, .about h3, .offer h3, .resources h3 {
-  color: #461f26;
+  color: #ef8354;
 }
 
 .btop {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  color: #292d29;
+  color: #bfc0c0;
 }
 
 .profile-image {
