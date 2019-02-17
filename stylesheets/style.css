@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
   color: #bdd8a2;
 }
 .jumbotron .lead {
-  color: #e54a16;
+  color: #f19070;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4 {
 
 .navbar-brand {
   font-family: "Comfortaa", cursive;
-  color: #e54a16 !important;
+  color: #f19070 !important;
 }
 
 .brand-icon {
@@ -88,7 +88,7 @@ h1, h2, h3, h4 {
 }
 
 .members h3 {
-  color: #8aba5a;
+  color: #577b33;
 }
 
 @media (max-width: 575.98px) {
