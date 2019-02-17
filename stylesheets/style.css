@@ -1,26 +1,26 @@
-/* Coolors Exported Palette - coolors.co/1147b2-bdd8a2-e54a16-f5ece4-2f0e3a */
-/* HSL */
+/* Coolors Exported Palette - coolors.co/2158a5-a3ccbb-e55b16-f4eae0-2d3142 */
 /* RGB */
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav:300,400");
 html {
   font-size: 1rem;
 }
 
 body {
-  background-color: #f5ece4;
-  color: #2f0e3a;
+  background-color: #ecdcc9;
+  color: #2d3142;
 }
 
 p {
   font-family: "Yantramanav", sans-serif;
+  font-weight: 400;
 }
 
 a {
-  color: #155ae1;
+  color: #2a6fd0;
 }
 
 a:hover {
-  color: #0d3483;
+  color: #19417b;
 }
 
 h1, h2, h3, h4 {
@@ -29,64 +29,71 @@ h1, h2, h3, h4 {
 }
 
 .jumbotron {
-  background-color: #2f0e3a;
-  color: #f5ece4;
+  background-color: #2d3142;
+  color: #ecdcc9;
   border-radius: 0rem 0rem 0.3rem 0.3rem;
 }
+.jumbotron p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
 .jumbotron h1 {
-  border-bottom: #f5ece4 solid 1px;
+  border-bottom: #ecdcc9 solid 1px;
   width: 100%;
-  color: #bdd8a2;
+  color: #cae0b4;
 }
 .jumbotron .lead {
-  color: #f19070;
+  color: #f19b70;
   font-family: "Fira Sans", sans-serif;
+  letter-spacing: 0.1rem;
 }
 .jumbotron a {
-  color: #6b98f1;
+  color: #7ba7e5;
 }
 .jumbotron a:hover {
-  color: #9ab8f5;
+  color: #a5c3ed;
 }
 
 .nav-link a {
-  color: #f5ece4 !important;
+  color: #ecdcc9 !important;
 }
 .nav-link a:hover {
-  color: #be834f;
+  color: #ac793d;
 }
 .nav-link a:active {
-  color: #d9b89a;
+  color: #d1ab7e;
 }
 
 .navbar-custom {
-  background-color: #2f0e3a;
+  background-color: #2d3142;
   font-family: "Yantramanav", sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 .navbar-brand {
   font-family: "Comfortaa", cursive;
-  color: #f19070 !important;
+  color: #f19b70 !important;
+  letter-spacing: 0.15rem;
 }
 
 .brand-icon {
-  color: #bdd8a2;
+  color: #cae0b4;
 }
 
 .news h2, .members h2, .contact h2, .about h2, .offer h2, .resources h2 {
-  color: #e54a16;
-  border-bottom: #e54a16 solid 1px;
+  color: #e55b16;
+  border-bottom: #e55b16 solid 1px;
   width: 100%;
 }
 .news h3, .members h3, .contact h3, .about h3, .offer h3, .resources h3 {
-  color: #e54a16;
+  color: #e55b16;
 }
 
 .btop {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  color: #e54a16;
+  color: #e55b16;
 }
 
 .profile-image {
@@ -94,7 +101,7 @@ h1, h2, h3, h4 {
 }
 
 .members h3 {
-  color: #577b33;
+  color: #648e3a;
 }
 
 @media (max-width: 575.98px) {
