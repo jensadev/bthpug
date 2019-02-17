@@ -1,4 +1,4 @@
-/* Coolors Exported Palette - coolors.co/2d3142-bfc0c0-ffffff-ef8354-4f5d75 */
+/* Coolors Exported Palette - coolors.co/1147b2-bdd8a2-e54a16-f5ece4-2f0e3a */
 /* HSL */
 /* RGB */
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav");
@@ -7,67 +7,88 @@ html {
 }
 
 body {
-  background-color: white;
-  color: #2d3142;
-}
-
-a {
-  color: #4f5d75;
-}
-
-a:hover {
-  color: #11141a;
+  background-color: #f5ece4;
+  color: #2f0e3a;
 }
 
 p {
   font-family: "Yantramanav", sans-serif;
 }
 
+a {
+  color: #155ae1;
+}
+
+a:hover {
+  color: #0d3483;
+}
+
 h1, h2, h3, h4 {
   font-family: "Comfortaa", cursive;
+  letter-spacing: 0.12rem;
 }
 
 .jumbotron {
-  background-color: #bfc0c0;
-  color: #2d3142;
+  background-color: #2f0e3a;
+  color: #f5ece4;
+  border-radius: 0rem 0rem 0.3rem 0.3rem;
 }
-.jumbotron p {
+.jumbotron h1 {
+  border-bottom: #f5ece4 solid 1px;
+  width: 100%;
+  color: #bdd8a2;
+}
+.jumbotron .lead {
+  color: #e54a16;
   font-family: "Fira Sans", sans-serif;
 }
 
+.nav-link a {
+  color: #f5ece4 !important;
+}
+.nav-link a:hover {
+  color: #be834f;
+}
+.nav-link a:active {
+  color: #d9b89a;
+}
+
 .navbar-custom {
-  background-color: #ef8354;
+  background-color: #2f0e3a;
   font-family: "Yantramanav", sans-serif;
 }
 
 .navbar-brand {
   font-family: "Comfortaa", cursive;
+  color: #e54a16 !important;
 }
 
-.rubrik-red {
-  color: #ef8354;
-  border-bottom: #ef8354 solid 1px;
-  width: 100%;
+.brand-icon {
+  color: #bdd8a2;
 }
 
 .news h2, .members h2, .contact h2, .about h2, .offer h2, .resources h2 {
-  color: #ef8354;
-  border-bottom: #ef8354 solid 1px;
+  color: #e54a16;
+  border-bottom: #e54a16 solid 1px;
   width: 100%;
 }
 .news h3, .members h3, .contact h3, .about h3, .offer h3, .resources h3 {
-  color: #ef8354;
+  color: #e54a16;
 }
 
 .btop {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  color: #bfc0c0;
+  color: #e54a16;
 }
 
 .profile-image {
   width: 200px;
+}
+
+.members h3 {
+  color: #8aba5a;
 }
 
 @media (max-width: 575.98px) {

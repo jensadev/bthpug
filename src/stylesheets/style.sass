@@ -10,54 +10,72 @@ html
     font-size: 1rem
 
 body
-    background-color: $color3
-    color: $color1
-
-a
-    color: $color5
-a:hover
-    color: darken($color5, 30%)
+    background-color: $color4
+    color: $color5 
 
 p
     font-family: $bread
 
+a
+    color: lighten($color1, 10%)
+a:hover
+    color: darken($color1, 10%)
+
 h1, h2, h3, h4
     font-family: $rubrik
+    letter-spacing: 0.12rem
 
 .jumbotron
-    background-color: $color2
-    color: $color1
-    p
+    background-color: $color5
+    color: $color4
+    border-radius: 0rem 0rem 0.3rem 0.3rem
+    h1
+        border-bottom: $color4 solid 1px
+        width: 100%
+        color: $color2
+    .lead
+        color: $color3
         font-family: $ingress
 
+.nav-link
+    a
+        color: $color4 !important
+    a:hover
+        color: darken($color4, 40%)
+    a:active
+        color: darken($color4, 20%)
+
 .navbar-custom
-    background-color: $color4
+    background-color: $color5
     font-family: $bread
 
 .navbar-brand
     font-family: $rubrik
+    color: $color3 !important
 
-.rubrik-red
-    color: $color4
-    border-bottom: $color4 solid 1px
-    width: 100%
+.brand-icon
+    color: $color2
 
 .news, .members, .contact, .about, .offer, .resources
     h2
-        color: $color4
-        border-bottom: $color4 solid 1px
+        color: $color3
+        border-bottom: $color3 solid 1px
         width: 100%
     h3
-        color: $color4
+        color: $color3
 
 .btop
     position: fixed
     bottom: 20px
     right: 20px
-    color: $color2
+    color: $color3
 
 .profile-image
     width: 200px
+
+.members
+    h3
+        color: darken($color2, 20%)
 
 @media (max-width: 575.98px)
     .profile-image
