@@ -42,6 +42,12 @@ h1, h2, h3, h4 {
   color: #f19070;
   font-family: "Fira Sans", sans-serif;
 }
+.jumbotron a {
+  color: #6b98f1;
+}
+.jumbotron a:hover {
+  color: #9ab8f5;
+}
 
 .nav-link a {
   color: #f5ece4 !important;
