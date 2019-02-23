@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: #ecdcc9;
+  background-color: #f3e8dc;
   color: #2d3142;
 }
 
@@ -16,11 +16,11 @@ p {
 }
 
 a {
-  color: #2a6fd0;
+  color: #19417b;
 }
 
 a:hover {
-  color: #19417b;
+  color: #081426;
 }
 
 h1, h2, h3, h4 {
@@ -101,7 +101,7 @@ h1, h2, h3, h4 {
 }
 
 .members h3 {
-  color: #648e3a;
+  color: #4b692c;
 }
 
 @media (max-width: 575.98px) {

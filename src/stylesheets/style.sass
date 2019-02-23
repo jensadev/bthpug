@@ -1,6 +1,6 @@
 @import "_palette.scss"
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav')
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav:300,400')
 
 $rubrik : 'Comfortaa', cursive
 $ingress : 'Fira Sans', sans-serif
@@ -10,16 +10,17 @@ html
     font-size: 1rem
 
 body
-    background-color: $color4
+    background-color: lighten($color4, 5%)
     color: $color5 
 
 p
     font-family: $bread
+    font-weight: 400
 
 a
-    color: lighten($color1, 10%)
-a:hover
     color: darken($color1, 10%)
+a:hover
+    color: darken($color1, 30%)
 
 h1, h2, h3, h4
     font-family: $rubrik
@@ -29,6 +30,10 @@ h1, h2, h3, h4
     background-color: $color5
     color: $color4
     border-radius: 0rem 0rem 0.3rem 0.3rem
+
+    p
+        font-size: 1.2rem
+        font-weight: 300
     h1
         border-bottom: $color4 solid 1px
         width: 100%
@@ -36,6 +41,7 @@ h1, h2, h3, h4
     .lead
         color: lighten($color3, 20%)
         font-family: $ingress
+        letter-spacing: 0.1rem
     a
         color: lighten($color1, 30%)
     a:hover
@@ -52,10 +58,12 @@ h1, h2, h3, h4
 .navbar-custom
     background-color: $color5
     font-family: $bread
+    letter-spacing: 0.1rem
 
 .navbar-brand
     font-family: $rubrik
     color: lighten($color3, 20%) !important
+    letter-spacing: .15rem
 
 .brand-icon
     color: $color2
@@ -79,7 +87,7 @@ h1, h2, h3, h4
 
 .members
     h3
-        color: darken($color2, 40%)
+        color: darken($color2, 50%)
 
 @media (max-width: 575.98px)
     .profile-image
