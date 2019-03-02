@@ -7,26 +7,29 @@ mixin mlink(href, name)
 mixin drop(href, name)
     a(class='dropdown-item' href=href)= name
 
-- var members = ['Anna-Karin', 'Birgitta', 'Carin', 'Gunilla', 'Karin', 'Katarina', 'Leenah', 'Ninne', 'Ulla']
+- var members = ['Anna-Karin', 'Birgitta', 'Carin', 'Gunilla', 'Katarina', 'Leenah', 'Ninne', 'Ulla']
 
-nav(class='navbar navbar-expand-lg navbar-dark navbar-custom')
-    a(class='navbar-brand', href='index.html')
-        <i class="fas fa-home mr-2 d-none d-sm-inline-block brand-icon"></i>
-        | Bildterapihuset
-    button(class='navbar-toggler', type='button', data-toggle='collapse', data-target='#navbar', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
-        span(class='navbar-toggler-icon')
-    div(class='collapse navbar-collapse', id='navbar')
-        ul(class='navbar-nav mr-auto')
-            li(class='nav-item')
-                +mlink('offer.html', 'Erbjudanden')
-            li(class='nav-item')
-                +mlink('about.html', 'Om')
-            li(class='nav-item')
-                +mlink('resources.html', 'Resurser')
-            li(class='nav-item')
-                +mlink('contact.html', 'Kontakt')
-            li(class='nav-item dropdown')
-                a(class='nav-link dropdown-toggle', href='#', id='navMembers', data-toggle='dropdown', aria-haspopup='true',aria-expanded='false') Medlemmar
-                div(class='dropdown-menu', aria-labelledby='navMembers')
-                    each member in members
-                        a(class='dropdown-item', href='members.html#' + member )= member
+block nav
+    nav(class='navbar navbar-expand-lg navbar-dark navbar-custom')
+        a(class='navbar-brand', href='about.html' title="Länk till Om Bildterapihuset")
+            <i class="fas fa-home mr-2 d-none d-sm-inline-block brand-icon"></i>
+            | Bildterapihuset
+        button(class='navbar-toggler', type='button', data-toggle='collapse', data-target='#navbar', aria-controls='navbar', aria-expanded='false', aria-label='Toggle navigation')
+            span(class='navbar-toggler-icon')
+        div(class='collapse navbar-collapse', id='navbar')
+            ul(class='navbar-nav mr-auto')
+                li(class='nav-item')
+                    +mlink('index.html', 'Aktuellt')        
+                li(class='nav-item')
+                    +mlink('offer.html', 'Erbjudanden')
+                li(class='nav-item')
+                    +mlink('contact.html', 'Kontakt')
+                li(class='nav-item dropdown')
+                    a(class='nav-link dropdown-toggle', href='#', id='navMembers', data-toggle='dropdown', aria-haspopup='true',aria-expanded='false') Medlemmar
+                    div(class='dropdown-menu', aria-labelledby='navMembers')
+                        each member in members
+                            a(class='dropdown-item', href='members.html#' + member )= member       
+                li(class='nav-item')
+                    +mlink('about.html', 'Om')
+                li(class='nav-item')
+                    +mlink('resources.html', 'Resurser')

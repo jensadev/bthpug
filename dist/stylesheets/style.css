@@ -2,7 +2,7 @@
 /* RGB */
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav:300,400");
 html {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 body {
@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
   font-weight: 300;
 }
 .jumbotron h1 {
-  border-bottom: #ecdcc9 solid 1px;
+  border-bottom: #cae0b4 solid 1px;
   width: 100%;
   color: #cae0b4;
 }
@@ -80,13 +80,15 @@ h1, h2, h3, h4 {
   color: #cae0b4;
 }
 
-.news h2, .members h2, .contact h2, .about h2, .offer h2, .resources h2 {
+.news h1, .members h1, .contact h1, .about h1, .offer h1, .resources h1 {
   color: #e55b16;
   border-bottom: #e55b16 solid 1px;
   width: 100%;
+  font-size: 2rem;
 }
-.news h3, .members h3, .contact h3, .about h3, .offer h3, .resources h3 {
+.news h2, .members h2, .contact h2, .about h2, .offer h2, .resources h2 {
   color: #e55b16;
+  font-size: 1.5rem;
 }
 
 .btop {
@@ -100,8 +102,15 @@ h1, h2, h3, h4 {
   width: 200px;
 }
 
-.members h3 {
+.members h2, .members h3 {
   color: #4b692c;
+}
+.members h3 {
+  font-size: 1.3rem;
+}
+
+.border-top-foot {
+  border-top: 1px solid #cae0b4;
 }
 
 @media (max-width: 575.98px) {

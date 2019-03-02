@@ -6,7 +6,7 @@ Stress har ibland ett samband med smärta, bristande sömn och ork vilket bidrar
 
 Fokus är på dig, att hitta din egen kraft och att få verktyg att använda i vardagen.  
 
-#### Jag erbjuder
+### Jag erbjuder
 
 * Bildterapi individuellt och i grupp
 * Vägledningssamtal

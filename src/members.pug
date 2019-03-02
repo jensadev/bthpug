@@ -3,59 +3,62 @@ extends layout
 mixin pimg(name)
     img(class='rounded float-right profile-image ml-3 mt-3 mb-2' src='images/members/' + name + '.jpg' alt='Bild på ' + name)
 
+    - var members = ['Anna-Karin', 'Birgitta', 'Carin', 'Gunilla', 'Katarina', 'Leenah', 'Ninne', 'Ulla']
+
 block head
-    title Bildterapihuset - Medlemmar
+    -var title = "Medlemmar"
+    title Bildterapihuset - #{title}
+
 
 block jumbotron
     div(class='jumbotron')
         div(class='col-sm-10 mx-auto')
             h1.rubrik-red Medlemmar
-            p.lead Här nedan hittar du individuell information om våra medlemmar.
-            p Här hittar du även kontaktuppgifter och vad varje enskild terapeut erbjuder.
+            p.lead Här nedan hittar du information om våra medlemmar och vad de erbjuder.
+            p I dagsläget är följande terapeuter aktiva i bildterapihuset:
+            ul.list-inline
+                each member in members
+                    li.list-inline-item
+                        a(href='#' + member)= member
 
 block content
     main.container.members
         section.row.pt-3#Anna-Karin
             .col
-                h2 Anna-Karin Karlsson
+                h1 Anna-Karin Karlsson
                 +pimg('anna-karin')
                 include:markdown-it members/anna-karin.md
         section.row.pt-3#Birgitta
             .col
-                h2 Birgitta Englund
+                h1 Birgitta Englund
                 +pimg('birgitta')
                 include:markdown-it members/birgitta.md
         section.row.pt-3#Carin
             .col
-                h2 Carin Salander
+                h1 Carin Salander
                 +pimg('carin')
                 include:markdown-it members/carin.md
         section.row.pt-3#Gunilla
             .col
-                h2 Gunilla Berglund
+                h1 Gunilla Berglund
                 +pimg('gunilla')
                 include:markdown-it members/gunilla.md
-        section.row.pt-3#Karin
-            .col
-                h2 Karin Egberg Thyme
-                +pimg('karin')
-                include:markdown-it members/karin.md
         section.row.pt-3#Katarina
             .col
-                h2 Katarina Sihlén
+                h1 Katarina Sihlén
                 include:markdown-it members/katarina.md
         section.row.pt-3#Leenah
             .col
-                h2 Leenah Malmi Pauser
+                h1 Leenah Malmi Pauser
                 +pimg('leenah')
                 include:markdown-it members/leenah.md
         section.row.pt-3#Ninne
             .col
-                h2 Ninne Lindgren
+                h1 Ninne Lindgren
                 +pimg('ninne')
                 include:markdown-it members/ninne.md
         section.row.pt-3#Ulla
             .col
-                h2 Ulla Kiivuori
+                h1 Ulla Kiivuori
                 +pimg('ulla')
                 include:markdown-it members/ulla.md

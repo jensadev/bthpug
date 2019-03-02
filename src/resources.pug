@@ -1,60 +1,22 @@
 extends layout
 
 block head
-    title Bildterapihuset - Resurser
+    -var title = "Resurser"
+    title Bildterapihuset - #{title}
 
 block jumbotron
     div(class='jumbotron')
         div(class='col-sm-10 mx-auto')
             h1.rubrik-red Resurser och Länkar
-            p.lead Här hittar du information kring bildterapi.
-            p Materialet behöver uppdateras
+            p.lead Här hittar du länkar och resurser kring bildterapi.
+            p Länkar och resurser är kontrollerade
+                time(datetime='2019-02') Februari 2019
+                | .
 
 block content
     main.container.resources
         section.row
             .col-md-9.col
-                h2 Bildterapiföreningar
-                p Sveriges Riksförbund för Bildterapeuter (SRBt) med ca 150 medlemmar organiserar utbildade bildterapeuter i Sverige 
-                    a(href='http://www.bildterapi.se' title='Extern länk till bildterapi.se') www.bildterapi.se 
-                p Bildterapeutföreningen i Norrland(BiN) är en lokalavdelning till SRBtmed ett 40-tal medlemmar 
-                    a(href='http://www.bildterapinorr.se' title='Extern länk till bildterapinorr.se') www.bildterapinorr.se 
-
-                h2 Bildterapeututbildningar
-                p.d-block Vid Umeå universitet ges Specialistutbildning i bildterapi 45hp 
-                    a(href='http://www.umu.se' title='Extern länk till Umeå universitet') www.umu.se
-                p.d-block Magisterprogram i bildterapi 60hp 
-                    a(href='http://www.umu.se' title='Extern länk till Umeå universitet') www.umu.se
-
-                p För information om privata utbildningsalternativ se 
-                    a(href='http://www.bildterapi.se/utbildning' title='Extern länk till bildterapi.se/utbildning') www.bildterapi.se/utbildning 
-
-                h2 Litteratur om bildterapi
-                p På svenska: 
-                    a(href='http://www.bildterapi.se/litteratur' title='Extern länk till bildterapi.se/litteratur') www.bildterapi.se/litteratur 
-
-                p.d-block Internationella tidskrifter:
-                ul.d-block
-                    li International Journal of Art Therapy (Inscape) - brittiska bildterapeutförbundets tidskrift
-                    li The Arts in Psychotherapy – forskningstidskrift för bild-, musik-, dans- och dramaterapi
-                    li Art Therapy OnLine (ATOL) Art Therapy Online
-                    li International arts therapies journal International arts therapies
-
-                h2 Forskning och utveckling inom bildterapi
-                p.d-block Vid Umeå universitet har tre bildterapeuter disputerat inom
-                ul.d-block
-                    li Pedagogiskt arbete/Genusforskarskola (Eva Skåréus)
-                    li Omvårdnad/Genusforskarskola (Inger Öster) 
-                    li Klinisk/Psykoterapi (Karin Egberg Thyme)
-                    
-                p För utförligare beskrivning av deras forskningsarbete se 
-                    a(href='http://www.bildterapi.se/forskning' title='Extern länk till bildterapi.se/forskning') www.bildterapi.se/forskning 
-
-                p.d-block Amerikanska och brittiska bildterapeutförbunden informerar om aktuell forskning på sina respektive hemsidor
-                ul.d-block
-                    li 
-                        a(href='http://www.arttherapy.org/' title='Extern länk till AATA') AATA
-                    li
-                        a(href='http://www.baat.org/' title='Extern länk till BAAT') BAAT
+                include:markdown-it content/resources.md
             .col-md-3
                 img(class='rounded img-fluid pt-5 d-none d-md-block float-right' src='images/stenar.jpg' alt='Bild på stenvägg')

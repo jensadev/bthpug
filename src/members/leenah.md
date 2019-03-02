@@ -1,4 +1,4 @@
-### Bildterapi-psykoterapi
+## Bildterapi-psykoterapi
 
 Välkommen att boka en tid hos mig som arbetar med bildterapi och psykoterapi på psykodynamisk grund. Jag är S:t Lukas utbildad terapeut och specialistutbildning i bildterapi, även utbildad inom konflikthanteringar relaterade till arbetsmiljö och är präst.
 
@@ -12,7 +12,7 @@ Välkommen att boka en tid hos mig som arbetar med bildterapi och psykoterapi p�
 * Existentiell livsproblematik. Enskild eller grupp.
 
 Välkommen att kontakta mig för konsultation och tidsbokning.  
-Kontakt: [leenah.malmi@pauser.se](leenah.malmi@pauser.se)  
+Kontakt: [leenah.malmi.pauser@gmail.com](leenah.malmi.pauser@gmail.com)  
 Telefon: 072-212 88 85  
 
 **Just nu söker jag frivilliga som kan delta i en bildterapigrupp.**

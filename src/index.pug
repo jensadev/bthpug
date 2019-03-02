@@ -1,7 +1,8 @@
 extends layout
 
 block head
-    title Bildterapihuset - Aktuellt
+    -var title = "Aktuellt"
+    title Bildterapihuset - #{title}
 
 block jumbotron
     div(class='jumbotron')
@@ -16,6 +17,6 @@ block content
     main.container.news
         section.row
             .col-md-9.col
-                include:markdown-it news/latest.md
+                include:markdown-it content/latest.md
             .col-md-3
                 img(class='img-fluid pt-5 d-none d-md-block float-right rounded' src='images/kritor.jpg' alt='Bild på kritor')

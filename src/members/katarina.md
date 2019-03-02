@@ -4,7 +4,7 @@ Mitt intresse för konst, bilder och kreativa uttryck väcktes tidigt.Att arbeta
 
 Bildterapiutbildningen har gett mig ett terapeutiskt verktyg, som jag tror på och därför implementerat inom den verksamhet jag verkar inom. Där har jag kunnat se att arbetet med bilder bidragit till ökad självkännedom, kontakt med känslor och erfarenheter, som leder till att en läkande process kommit igång.
 
-#### Jag erbjuder
+### Jag erbjuder
 
 * Bildterapi individuellt
 * Bildterapi i grupp

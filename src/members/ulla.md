@@ -5,7 +5,7 @@ Konstkunskaperna mina är från Abf-konstskola i Umeå i slutet av 80-talet med 
 
 Tillsammans med mig , skaparmaterialen och de olika målar-, och kroppsövningarna, kan du närma dig, stanna upp i det som du vill och behöver just nu. OBS, du behöver inga förkunskaper. Varje person har sitt alldeles egna bildspråk.
 
-#### Jag erbjuder
+### Jag erbjuder
 
 * att tillsammans med mig titta på din livstråd
 * stöd och ideer till att hitta åter till ditt eget skapande
