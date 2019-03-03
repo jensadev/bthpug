@@ -52,16 +52,7 @@ h1, h2, h3, h4 {
 }
 .jumbotron a:hover {
   color: #a5c3ed;
-}
-
-.nav-link a {
-  color: #ecdcc9 !important;
-}
-.nav-link a:hover {
-  color: #ac793d;
-}
-.nav-link a:active {
-  color: #d1ab7e;
+  text-decoration: none;
 }
 
 .navbar-custom {
@@ -101,6 +92,16 @@ h1, h2, h3, h4 {
 .profile-image {
   width: 200px;
 }
+@media (max-width: 575.98px) {
+  .profile-image {
+    width: 120px;
+  }
+}
+@media (max-width: 300px) {
+  .profile-image {
+    display: none;
+  }
+}
 
 .members h2, .members h3 {
   color: #4b692c;
@@ -111,17 +112,6 @@ h1, h2, h3, h4 {
 
 .border-top-foot {
   border-top: 1px solid #cae0b4;
-}
-
-@media (max-width: 575.98px) {
-  .profile-image {
-    width: 120px;
-  }
-}
-@media (max-width: 300px) {
-  .profile-image {
-    display: none;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

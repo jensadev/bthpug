@@ -1,4 +1,5 @@
 @import "_palette.scss"
+// @import "_navbar.scss"
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Fira+Sans|Yantramanav:300,400')
 
@@ -44,16 +45,9 @@ h1, h2, h3, h4
         letter-spacing: 0.1rem
     a
         color: lighten($color1, 30%)
-    a:hover
-        color: lighten($color1, 40%)
-
-.nav-link
-    a
-        color: $color4 !important
-    a:hover
-        color: darken($color4, 40%)
-    a:active
-        color: darken($color4, 20%)
+        &:hover
+            color: lighten($color1, 40%)
+            text-decoration: none
 
 .navbar-custom
     background-color: $color5
@@ -86,7 +80,10 @@ h1, h2, h3, h4
 
 .profile-image
     width: 200px
-
+    @media (max-width: 575.98px)
+        width: 120px
+    @media (max-width: 300px)
+        display: none
 .members
     h2, h3
         color: darken($color2, 50%)
@@ -95,11 +92,3 @@ h1, h2, h3, h4
         
 .border-top-foot
     border-top: 1px solid $color2
-
-@media (max-width: 575.98px)
-    .profile-image
-        width: 120px
-
-@media (max-width: 300px)
-    .profile-image
-        display: none
