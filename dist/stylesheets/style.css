@@ -34,13 +34,14 @@ h1, h2, h3, h4 {
   border-radius: 0rem 0rem 0.3rem 0.3rem;
 }
 .jumbotron p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
 }
 .jumbotron h1 {
   border-bottom: #cae0b4 solid 1px;
   width: 100%;
   color: #cae0b4;
+  font-size: 1.9rem;
 }
 .jumbotron .lead {
   color: #f19b70;
@@ -75,11 +76,11 @@ h1, h2, h3, h4 {
   color: #e55b16;
   border-bottom: #e55b16 solid 1px;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .news h2, .members h2, .contact h2, .about h2, .offer h2, .resources h2 {
   color: #e55b16;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .btop {
@@ -107,11 +108,15 @@ h1, h2, h3, h4 {
   color: #4b692c;
 }
 .members h3 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .border-top-foot {
   border-top: 1px solid #cae0b4;
+}
+
+strong {
+  color: rgba(45, 49, 66, 0.8);
 }
 
 /*# sourceMappingURL=style.css.map */
