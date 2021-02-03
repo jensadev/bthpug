@@ -3,7 +3,7 @@ extends layout
 mixin pimg(name)
     img(class='rounded float-right profile-image ml-3 mt-3 mb-2' src='images/members/' + name + '.jpg' alt='Bild på ' + name)
 
-    - var members = ['Anna-Karin', 'Birgitta', 'Carin', 'Gunilla', 'Katarina', 'Leenah', 'Ninne', 'Ulla']
+    - var members = ['Birgitta', 'Carin', 'Gunilla', 'Katarina', 'Ninne', 'Ulla']
 
 block head
     -var title = "Medlemmar"
@@ -23,11 +23,6 @@ block jumbotron
 
 block content
     main.container.members
-        section.row.pt-3#Anna-Karin
-            .col
-                h1 Anna-Karin Karlsson
-                +pimg('anna-karin')
-                include:markdown-it members/anna-karin.md
         section.row.pt-3#Birgitta
             .col
                 h1 Birgitta Englund
@@ -47,11 +42,6 @@ block content
             .col
                 h1 Katarina Sihlén
                 include:markdown-it members/katarina.md
-        section.row.pt-3#Leenah
-            .col
-                h1 Leenah Malmi Pauser
-                +pimg('leenah')
-                include:markdown-it members/leenah.md
         section.row.pt-3#Ninne
             .col
                 h1 Ninne Lindgren

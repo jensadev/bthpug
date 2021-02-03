@@ -1,16 +1,19 @@
 {
-  "name": "bthpug",
+  "name": "bildterapihuset",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jensandreasson77@gmail.com",
   "license": "ISC",
   "dependencies": {
     "jstransformer-markdown-it": "^2.1.0",
     "pug": "^2.0.3",
     "pug-code-gen": "^2.0.1"
+  },
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
   }
 }

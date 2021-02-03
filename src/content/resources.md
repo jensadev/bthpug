@@ -1,11 +1,6 @@
-# Bildterapiföreningar
+# Bildterapeutföreningar
 Sveriges Riksförbund för Bildterapeuter (SRBt) med ca 150 medlemmar organiserar utbildade bildterapeuter i Sverige [www.bildterapi.se](http://www.bildterapi.se)  
 Bildterapeutföreningen i Norrland(BiN) är en lokalavdelning till SRBtmed ett 40-tal medlemmar [www.bildterapinorr.se](http://www.bildterapinorr.se)
-
-# Bildterapeututbildningar
-Vid Umeå universitet ges Specialistutbildning i bildterapi 45hp [www.umu.se](http://www.umu.se)  
-Magisterprogram i bildterapi 60hp [www.umu.se](http://www.umu.se)  
-För information om privata utbildningsalternativ se [www.bildterapi.se/utbildning](http://www.bildterapi.se/utbildning)
 
 # Litteratur om bildterapi
 På svenska: [www.bildterapi.se/litteratur](http://www.bildterapi.se/litteratur)
